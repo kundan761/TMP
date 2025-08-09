@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    text-align: center;
+    font-family: monospace, Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
