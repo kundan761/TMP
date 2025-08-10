@@ -6,7 +6,6 @@ function App() {
     <>
       <div className="App">
         <AllRoutes />
-        <h1>Task Management Portal</h1>
       </div>
     </>
   );

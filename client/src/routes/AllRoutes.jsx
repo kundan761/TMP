@@ -1,14 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from '../pages/Login';
-import Register from '../pages/Register';
 import Dashboard from '../pages/Dashboard';
+import AuthPage from '../pages/AuthPage';
 
 const AllRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/" element={<AuthPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
